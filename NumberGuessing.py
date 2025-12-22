@@ -19,8 +19,10 @@ def number_guessing_game():
         
         if guess < number_to_guess:
             print("Too low.")
+            print("Guess again.")
         elif guess > number_to_guess:
             print("Too high.")
+            print("Guess again.")
         else:
             print(f"Congratulations! You've guessed the number {number_to_guess} correctly!")
             return
